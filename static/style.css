@@ -1,0 +1,165 @@
+body {
+    background-color: #ffffff;
+    min-width: 600px;
+    overflow-x: hidden;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  img{
+     filter: grayscale(100%); 
+  }
+  
+  img:hover{
+     filter: grayscale(0%);
+  }
+  
+  .page-wrapper {
+    min-height: 90vh;
+  }
+  
+  .bg-dark {
+    background-color: #141414 !important;
+  }
+  #footer {
+    background-color: #141414;
+    height: 80px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  #abstract {
+     filter: grayscale(0%);
+    max-width: 80%;
+  }
+  .navbar-brand {
+    font-family: "Righteous", sans-serif;
+    font-size: 25px !important;
+  }
+  
+  
+  #placeholder{
+    filter:grayscale(0%);
+  }
+  .social-links {
+    font-size: 24px;
+    text-decoration: none;
+    padding-right: 10px;
+    color: #8a897c;
+  }
+  
+  .hello {
+    font-family: "Righteous", sans-serif;
+    font-size: 7rem;
+  }
+  
+  .container {
+    margin-top: 5rem;
+    margin-left: 3rem !important;
+  }
+  
+  #logo {
+    font-size: 20px;
+    color: white;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+  
+  #bio {
+    padding-top: 0px !important;
+    padding-bottom: 10px !important;
+    padding: 24px;
+  }
+  #bio > p {
+    color: #8a897c;
+    border-top: 1px solid #8a897c;
+    border-left: 1px solid #8a897c;
+    padding: 12px;
+  }
+  
+  .social-links:hover {
+    font-size: 28px;
+    color: #bdbbb0;
+  }
+  
+  .btn-dark {
+    background-color: #8a897c;
+    border-color: #8a897c;
+  }
+  
+  .carousel {
+    background-color: #eee;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .carousel-item img {
+    border-radius: 10px;
+    filter: grayscale(10%);
+    
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .carousel-caption h5,
+  .carousel-caption p {
+    color: white;
+  }
+  
+  .carousel-link:hover {
+    color: white;
+    font-size: 22px;
+    text-decoration: underline;
+  }
+  
+  #btn-message-follow {
+    margin-left: 24px !important;
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      min-width: 100%;
+    }
+  }
+  
+  @media (width < 1500px) {
+    .page-wrapper {
+      min-height: 120vh;
+    }
+  }
+  
+  @media (width < 768px) {
+    .page-wrapper {
+      min-height: 230vh;
+    }
+  }
+  
+  @media (width < 768px) {
+    .page-wrapper-contact {
+      min-height: 100vh;
+    }
+  }
+  
+  @media (width < 592px) {
+    #abstract {
+      display: none;
+    }
+    .continer-md {
+      width: abc;
+    }
+  }
+  
+  @media (width < 1000px) {
+    #bio > p {
+      width: 60%;
+    }
+  }
+  

@@ -1,0 +1,58 @@
+{% extends "layout.html" %} {% block title %}Contact{% endblock %} {% block
+    content %}
+    
+    <div id="contact-page">
+      <div class="row justify-content-center">
+        <div class="col-sm-5">
+          <form class="was-validated" novalidate>
+            <fieldset class="section" id="section-1">
+              <legend>Send a Message</legend>
+    
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required />
+                <div class="valid-feedback">Perfect!</div>
+                <div class="invalid-feedback">Your good name please!</div>
+              </div>
+    
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required />
+                <div class="valid-feedback">
+                  Perfect, don't worry! We won't spam you.
+                </div>
+                <div class="invalid-feedback">
+                  We need your email, it would be something like abc@xyz.com
+                </div>
+              </div>
+    
+              <div class="mb-3">
+                <label for="textarea" class="form-label">Message</label>
+                <textarea
+                  type="textarea"
+                  class="form-control"
+                  id="textarea"
+                  required
+                ></textarea>
+                <div class="valid-feedback"></div>
+                <div class="invalid-feedback">Enter your question or feedback</div>
+              </div>
+              <div class="mb-3">
+                <button type="submit" class="btn btn-dark">Send Message</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+    
+        <div class="col-sm-7" id="contact-graphic">
+          <img
+            src="static/img/abstract2.png"
+            id="abstract"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+    
+    {% endblock %}
+    

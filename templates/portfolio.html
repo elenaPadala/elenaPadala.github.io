@@ -1,0 +1,277 @@
+{% extends "layout.html" %} {% block title %}Portfolio{% endblock %} {% block
+    content %}
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="https://elenap-flask-756626b.apps.codewizardshq.com">
+            <img src="static/img/nasa.png" class="d-block w-100" />
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>
+              <a
+                href="https://elenap-flask-756626b.apps.codewizardshq.com"
+                class="carousel-link"
+                >NASA App</a
+              >
+            </h5>
+            <p>Look at cool space stuff thanks to NASA's API</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="https://elenap-flask-83c310e.apps.codewizardshq.com/">
+            <img
+              src="static/img/meme_generator.png"
+              class="d-block w-100"
+            />
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>
+              <a
+                href="https://elenap-flask-83c310e.apps.codewizardshq.com/"
+                class="carousel-link"
+                >Meme Generator</a
+              >
+            </h5>
+            <p>Make memes, customize your profile, and share!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="https://elenap.codewizardshq.com/h21_api_12/timer.html">
+            <img
+              src="static/img/online_gym.png"
+              class="d-block w-100"
+            />
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>
+              <a
+                href="https://elenap.codewizardshq.com/h21_api_12/timer.html"
+                class="carousel-link"
+                >Online Gym</a
+              >
+            </h5>
+            <p>A timer and tracker for all your activites!</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+    <div class="container-lg" id="other-projects">
+      <hr />
+      <h3>Other Projects</h3>
+      <p></p>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
+        <div class="col">
+          <div class="card">
+            <a href="https://elenap.codewizardshq.com/h24_capstone_03/index.html">
+              <img
+                src="static/img/assistant.png"
+                class="card-img-top"
+              />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Wizard Assistant</h5>
+              <p class="card-text">
+                Do cool things with your voice like finding images
+              </p>
+              <a
+                href="https://elenap.codewizardshq.com/h24_capstone_03/index.html"
+                class="btn btn-dark"
+                >Open Project</a
+              >
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card">
+            <a
+              href="https://elenap.codewizardshq.com/h23_css_framework_09/shop.html"
+            >
+              <img src="static/img/urban.png" class="card-img-top" />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">TheUrbanFurniture Store</h5>
+              <p class="card-text">Browse through a catalogue of furniture</p>
+              <a
+                href="https://elenap.codewizardshq.com/h23_css_framework_09/shop.html"
+                class="btn btn-dark"
+                >Open Project</a
+              >
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card">
+            <a href="https://elenap.codewizardshq.com/h13_ui_07/scramble.html">
+              <img src="static/img/scramble.png" class="card-img-top" />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Word Scrambler</h5>
+              <p class="card-text">Test your problem solving with this word game</p>
+              <a
+                href="https://elenap.codewizardshq.com/h13_ui_07/scramble.html"
+                class="btn btn-dark"
+                >Open Project</a
+              >
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card">
+            <a
+              href="https://elenap.codewizardshq.com/h23_css_framework_04/form.html"
+            >
+              <img src="static/img/zen.png" class="card-img-top" />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Zen Survey</h5>
+              <p class="card-text">
+                How stressed have you been feeling lately? Take this survey
+              </p>
+              <a
+                href="https://elenap.codewizardshq.com/h23_css_framework_04/form.html"
+                class="btn btn-dark"
+                >Open Project</a
+              >
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card">
+            <a href="https://elenap.codewizardshq.com/h14_capstone_11/index.html">
+              <img src="static/img/games.png" class="card-img-top" />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Top Games</h5>
+              <p class="card-text">
+                3 minigames to test your reflexes, memory and more!
+              </p>
+              <a
+                href="https://elenap.codewizardshq.com/h14_capstone_11/index.html"
+                class="btn btn-dark"
+                >Open Project</a
+              >
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card">
+            <a
+              href="https://elenap.codewizardshq.com/h23_css_framework_10/page1.html"
+            >
+              <img src="static/img/potato.png" class="card-img-top"
+            /></a>
+            <div class="card-body">
+              <h5 class="card-title">Recipe Journal</h5>
+              <p class="card-text">
+                Some easy to follow recipes to share with friends and family
+              </p>
+              <a
+                href="https://elenap.codewizardshq.com/h23_css_framework_10/page1.html"
+                class="btn btn-dark"
+                >Open Project</a
+              >
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card">
+            <a href="https://elenap.codewizardshq.com/h13_ui_03/page.html">
+              <img src="static/img/articles.png" class="card-img-top" />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Tech Articles</h5>
+              <p class="card-text">Read some cool articles in different views</p>
+              <a
+                href="https://elenap.codewizardshq.com/h13_ui_03/page.html"
+                class="btn btn-dark"
+                >Open Project</a
+              >
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card">
+            <a href="https://elenap-flask-06c72c8.apps.codewizardshq.com/">
+              <img src="static/img/TheBlog2.png" class="card-img-top"
+            /></a>
+            <div class="card-body">
+              <h5 class="card-title">TheBlog</h5>
+              <p class="card-text">Login, make posts, edit, comment, and search</p>
+              <a
+                href="https://elenap-flask-06c72c8.apps.codewizardshq.com/"
+                class="btn btn-dark"
+                >Open Project</a
+              >
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card">
+            <img
+              id="placeholder"
+              src="static/img/placeholder.png"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">More Coming Soon</h5>
+              <p class="card-text">
+                Stay tuned for ore projects will show up as time goes on
+              </p>
+              <a href="#" class="btn disabled btn-outline-dark">TBA</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    {% endblock %}
+    

@@ -1,0 +1,29 @@
+{% extends "layout.html" %} {% block content %}
+
+    <title>{% block title %}Home{% endblock %}</title>
+
+    <div class="container-fluid">
+      <div class="row row-cols-1 row-cols-md-3 container-fluid" id="header">
+      </div>
+      <div class="row" id="profile-info">
+        <div class="col-sm-12 conatiner-fluid" id="info-container">
+          <h1 class="hello animate__animated animate__fadeInLeft container-fluid">Hello! I'm <span id="elena">Elena</span>. <i class="bi bi-code-square"></i></h1>
+          <div class="conatiner-fluid" id="bio">
+            <p>Hi there! Looks like you found me! (Or I just gave you this link becasue this is a small code project that does not mean that much.) I suppose this is where I should tell you about myself. I am a 10th grader who likes to code when motivation strikes and enjoy UI/UX the most. In my spare time, I like to draw, animate, stare into the void, watch cat videos, or go for walks. I hope this is a sufficient introduction and this wasted approximately 10 minutes of my day.</p>
+          </div>
+        </div>
+        
+      </div>
+      <div id="btn-message-follow">
+        <a href="{{url_for('contact_page')}}"><button type="button" class="btn btn-outline-dark">Send Message</button></a><a href="https://www.instagram.com/"> <button type="button" class="btn btn-dark">Follow</button></a>
+      
+     
+      </div>
+      
+
+      <div
+        class="row g-4 row-cols-1 row-cols-sm-2 row-cols-md-3"
+        id="posts"
+      ></div>
+    </div>
+{% endblock %}
